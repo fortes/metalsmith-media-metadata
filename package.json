@@ -28,7 +28,7 @@
     "node-exiftool": "^2.3.0"
   },
   "devDependencies": {
-    "codecov": "^2.3.0",
+    "codecov": "^3.0.0",
     "jest": "^21.1.0",
     "metalsmith": "^2.3.0",
     "rimraf": "^2.6.2"
