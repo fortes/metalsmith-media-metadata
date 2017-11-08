@@ -44,12 +44,13 @@ const mediaMetadata = require('metalsmith-media-metadata');
 
 metalsmith.use(mediaMetadata({
   // Only process jpegs
-  path: '*.+(jpg|jpeg)'
+  path: '**/*.+(jpg|jpeg)'
 }));
 ```
 
-There is one configuration option:
+There are two configuration options:
 
+* `cache`: Save exif data alongside images (default: `false`)
 * `path`: [`minimatch`](https://github.com/isaacs/minimatch) *case-insensitive* glob that determines which files get processed (default: `**/*.+(gif|jpg|mp4|png)`)
 
 ## Requirements
@@ -58,6 +59,7 @@ There is one configuration option:
 
 ## Changelog
 
+* `0.1.0`: Add cache option
 * `0.0.4`: Update default search path to match subdirectories
 * `0.0.3`: Fix bug where paths were not relative to `metalsmith.source()`
 * `0.0.2`: Package metadata update, no changes

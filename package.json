@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-media-metadata",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Adds metadata to image and video metalsmith file objects",
   "main": "index.js",
   "license": "MIT",

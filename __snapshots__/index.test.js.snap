@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`writes cache files to disk 1`] = `
+Array [
+  "sample.jpg.exifcache.json",
+  "test-mpeg_512kb.mp4.exifcache.json",
+]
+`;
