@@ -1,3 +1,7 @@
+# No longer maintained
+
+This is no longer maintained, code is archived and available for forking though.
+
 # metalsmith-media-metadata
 
 [![build status](https://travis-ci.org/fortes/metalsmith-media-metadata.svg?branch=master)](https://travis-ci.org/fortes/metalsmith-media-metadata) [![codecov](https://codecov.io/gh/fortes/metalsmith-media-metadata/branch/master/graph/badge.svg)](https://codecov.io/gh/fortes/metalsmith-media-metadata) [![Greenkeeper badge](https://badges.greenkeeper.io/fortes/metalsmith-media-metadata.svg)](https://greenkeeper.io/)
